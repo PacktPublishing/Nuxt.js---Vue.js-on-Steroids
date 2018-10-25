@@ -1,0 +1,9 @@
+Useful Resources & Links
+Section 5, Lecture 61
+Firebase Docs: https://firebase.google.com/docs/database/
+Axios: https://github.com/axios/axios
+Resources for this lecture
+backend-01-store-data.zip
+backend-02-fetch-data.zip
+backend-03-axios.zip
+Show more (1)

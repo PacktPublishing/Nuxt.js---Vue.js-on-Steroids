@@ -1,0 +1,3 @@
+Important: Restart dev server in next lecture!
+Section 4, Lecture 46
+Just a quick note: In the next lecture, we'll add Vuex to the project. You'll need to restart the dev server after adding the Vuex-related files (you'll see which I mean in the next lecture). So quit the currently running server and restart it to ensure that Nuxt picks up that change.
