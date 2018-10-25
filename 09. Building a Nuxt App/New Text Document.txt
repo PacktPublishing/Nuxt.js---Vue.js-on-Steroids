@@ -1,0 +1,13 @@
+Fetching Data in the SPA
+Section 9, Lecture 97
+The SPA (single page application) is kind of broken - fetching data (posts) doesn't work because that happens in nuxtServerInit.
+
+Here are some possible "fixes":
+
+1) Add asyncData  to your pages/index.vue , pages/posts/index.vue  and pages/admin/index.vue  components. Reach out to your backend in all of them and simply load the posts this way.
+
+Alternatively, you implement fetch()  and don't just load the posts but also store them on the server (i.e. you make your Http request and then dispatch()  your fetched posts to the server).
+
+2) Use the created()  or mounted()  lifecycle hook Vue.js provides.
+
+You can add that method to your default and admin layout components. Send your Http requests from inside there and update the Vuex store by dispatching the fetched posts to it.

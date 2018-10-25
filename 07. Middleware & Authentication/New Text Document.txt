@@ -1,0 +1,8 @@
+Useful Resources & Links
+Section 7, Lecture 86
+Middleware docs: https://nuxtjs.org/guide/routing#middleware
+Resources for this lecture
+middleware-auth-01-basics.zip
+middleware-auth-02-signup-signin.zip
+middleware-auth-03-basic-auth.zip
+Show more (2)

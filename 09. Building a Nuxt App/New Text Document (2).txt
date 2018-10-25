@@ -1,0 +1,11 @@
+Deploying SPAs and Static Webpages
+Section 9, Lecture 102
+So you either built a SPA or static webpage (i.e. no Universal app)?
+
+Deploying these kind of apps is super simple!
+
+After building the app (npm run build ), you just need to upload your dist/  folder content (just the content, not the folder itself!) to a static host like AWS S3 or Firebase Hosting.
+
+That's all! 
+
+No other folders or files do need to be deployed since your code has already been built, optimized and prepared to require no Node.js server anymore.
